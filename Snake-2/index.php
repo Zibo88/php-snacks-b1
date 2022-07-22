@@ -24,8 +24,6 @@
         }else {
             echo 'Accesso negato';
         }
-
-        
     ?>
 
 </body>
