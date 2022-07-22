@@ -19,7 +19,7 @@ ciao
                 $randomNumber = rand(1, 100);
                 // se all'interno di $arandomNumber !(non è)in_array $arrayNumbers
                 if(!in_array($randomNumber, $arrayNumbers) ){
-                    // pusha alla'interno di $arrayNumbers il $randomNumber
+                    // pusha all'interno di $arrayNumbers il $randomNumber
                     $arrayNumbers[] = $randomNumber;
                     
                     var_dump($arrayNumbers);
